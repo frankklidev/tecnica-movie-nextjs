@@ -1,0 +1,26 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: white; /* Solo si quieres asegurarte de que tiene un fondo blanco. */
+    color: black; /* Esto asegurará que el texto sea negro, cambia según tus necesidades. */
+}
+
+.movieCard {
+    text-decoration: none;
+    cursor: pointer;
+    width: 300px;
+    height: 800px;
+    background-color: white; /* Establece un color de fondo para asegurarte de que contraste con el texto. */
+}
+
+.movieImage {
+    width: 300px;
+    height: 450px;
+    object-fit: cover; /* Asegurarse de que la imagen cubra todo el espacio sin estirarse. */
+}
+
+.backButton {
+    margin-top: 15px;
+}

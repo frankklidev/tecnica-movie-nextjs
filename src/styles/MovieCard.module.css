@@ -1,0 +1,16 @@
+.card {
+    margin-bottom: 16px;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    transition: transform 0.2s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+  }
+  
+  .cardMedia {
+    height: 240px;
+  }
+  
